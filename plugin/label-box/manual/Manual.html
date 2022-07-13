@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Label Box</title>
+</head>
+<body>
+<h3>Label Box</h3>
+<p> 
+Adds a box on the layers docker to choose color labels.
+</p>
+
+<img src="krita_20220713_0935.gif"/>
+
+<h3>Usage</h3>
+<p>Once the plugin is installed you can just choose the color label and click to apply to selected layers.</p>
+<ul>
+<li>It also works if you put your mouse on top of the box and scroll.</li>
+<li>It works for one or multiple layers</li>
+</ul>
+<p>Now one thing that people will notice:</p>
+<blockquote>
+<p><strong>the color box will always stay in the last chosen color</strong>, even if you select a layer that already has a color label, the box will not be updated.</p>
+</blockquote>
+<p><strong>Why doesnt the box update?</strong>
+I just couldnt find a way to check if the current layer was changed, the signal of layer changed doesnt seem to be avaliable from the krita api so i can&#39;t really do much.</p>
+
+
+</body>
+</html>
