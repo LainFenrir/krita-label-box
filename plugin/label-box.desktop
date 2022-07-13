@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=label-box
+X-Python-2-Compatible=false
+X-Krita-Manual=manual/Manual.html
+Name= Label Box
+Comment= Select color labels from the layers docker
